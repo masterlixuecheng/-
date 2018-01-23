@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+ul li{list-style:none}
+ol li{list-style:none}
+li{list-style:none}
+a{text-decoration:none;}
+i{font-style:normal;}
+/*==============================================下面是header====================================================*/
+.wrap{width:auto;background:#333333;}
+.header{width:1225px;height:40px;margin:0 auto;line-height:40px;}
+.header li{float:left;height:40px}
+.header li a{color:#b0b0b0;font-size:12px;padding:0 9px;border-right:1px #424242 solid;}
+.header .se a,.header .car a{border-right:none;}
+.header ol{float:right;margin-right:27px;}
+.header ol .car{display:block;height:40px;background:#424242;padding:0 10px;}
+.header ol .car img{float:left;margin-top:15px;}
+.header a:hover{color:#fff;}
+/*==============================================下面是navigate====================================================*/
+.wrap1{width:auto;background:#fff;}
+.navigate{width:1225px;height:100px;margin:0 auto;}
+.logo{width:50px;height:50px;float:left;margin:25px 0 0 10px;}
+.nav{width:700px;height:100px;float:left;margin-left:180px;}
+
+
+.nav ul li{float:left;text-align:center;line-height:100px;}
+.nav ul li a{color:#333333;font-size:12px;padding:0 10px;}
+.nav a:hover{color:red;}
+.search{float:right;margin-top:25px;line-height:50px;}
+.search input{width:150px;height:48px;border:1px #CCC solid;float:left;}
+.search a{float:left;}
+.search a{display:block;width:50px;height:48px;border:1px #ccc solid;border-left:none;}
+/*==============================================下面是banner====================================================*/
+.wrap2{width:auto;background:#fff;}
+.banner{width:1226px;height:460px;margin:0 auto;position:relative;}
+.banner .pic{width:1280px;height:460px;overflow:hidden;}
+.banner .pic li{float:left;list-style:none}
+.banner .number li{float:left;}
+.banner .number{position:absolute;right:153px;bottom:5px;}
+.banner .number li a{display:block;width:30px;height:30px;border-radius:50%;background:#fff;margin-left:10px;}
+.banner .number li a:hover{background:#FF6;}
+.list{width:233px;height:460px;position:absolute;left:0px;top:0px;background:#000;/*opacity:0.7;*/}
+.list ul{margin-top:23px;text-align:center;line-height:42px;}
+.list ul .nav1{width:233px;height:42px;}
+.list .nav1 a{color:#fff;font-size:14px;font-family:"微软雅黑";}
+/*==============================================下面是二级菜单样式====================================================*/
+.list ul ol{max-height:460px;display:none;position:absolute;left:233px;top:0px;width:400%;background:#fff;}
+.list ul ol li{width:200px;height:57px;float:left;padding:18px 10px 18px 15px;       /*display:table-cell;vertical-align:middle;*/}
+.list ul ol li img{width:40px;height:40px;float:left;}
+.list ul .nav1 ol li a{float:left;color:#000;}
+/*==============================================下面是hover效果====================================================*/
+.list ul .nav1:hover{background:#ff6700;}
+.list ul li:hover ol{display:block;color:#000;}
+
+.list ul .nav1 ol li:hover a{color:#ff6700;}
+
+/*==========================================下面是shouji=============================================*/
+.wrap3{width:auto;background:#fff;margin:15px 0 15px 0;}
+.shouji{width:1228px;height:172px;margin:0 auto;}
+.shouji dt{width:235px;height:172px;background:#5f5750;float:left;}
+.shouji dt ul li{width:76px;height:76px;float:left;text-align:center;margin-top:15px;}
+.wrap3 .shouji dt ul li p{color:#fff;font-size:12px;}
+
+.shouji dt ul li img{width:30px;height:30px;transition: all 0.5s;}
+/*.shouji li:hover a{color:red;}*/
+
+.shouji li:hover img{transform: scale(1.2);}
+.shouji dd{float:right;margin-right:5px;}
+.shouji dd img{-webkit-transition: all .2s linear; /*渐变效果*/
+            transition: all .2s linear;}
+.shouji dd img:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+/*==============================================下面是star====================================================*/
+.wrap4{width:auto;background:#f5f5f5;margin:15px 0 15px 0;}
+.star{width:1228px;height:436px;margin:0 auto;}
+.star-t{width:1228px;height:55px;}
+.star h2{color:#000;float:left;margin-left:15px;}
+.star .button{width:120px;height:26px;float:right;}
+.star .button li{float:left;}
+.button li a{display:block;width:34px;height:22px;border:#e0e0e0 1px solid;}
+.starpic1,.starpic2,.starpic3,.starpic4,.starpic5{width:234px;height:340px;float:left;text-align:center;margin-left:11px;background:#fafafa;}
+.star dt{width:234px;height:231px;display:table-cell;vertical-align:middle;}
+.starpic1{border-top:#ffac13 1px solid;}
+.starpic2{border-top:#83c44e 1px solid;}
+.starpic3{border-top:#2196f3 1px solid;}
+.starpic4{border-top:#e53935 1px solid;}
+.starpic5{border-top:#00c0a5 1px solid;}
+.star a{font-size:14px;color:#7f2121;}
+.star p{font-size:12px;color:#b6b0c0;line-height:24px}
+.star span{font-size:14px;color:red;line-height:28px;}
+
+/*==============================================下面是house====================================================*/
+.wrap5{width:auto;background:#f5f5f5;margin:15px 0 0 0;}
+.house{width:1228px;height:694px;margin:0 auto;}
+.wrap5 h2{float:left;line-height:75px;margin-left:15px;}
+.wrap5 .jump{float:right;margin-right:28px;}
+.wrap5 .jump li{float:left;margin-left:15px;}
+.wrap5 .jump li a{display:block;font-size:15px;color:#424242;line-height:75px;}
+.wrap5 .jump li a:hover{color:#ff6700;border-bottom:#ff6700 2px solid;}
+/*==============================================上面是main公共样式====================================================*/
+.house-t{height:76px;}
+.wrap5 ol li{float:left;}
+.housepic{width:235px;height:300px;float:left;text-align:center;background:#fff;margin: 0 0 7px 13px;}
+.housepic:after{content".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+.wrap5 .house .housepic li{float:left;}
+.house .housepic dt{width:235px;height:205px;text-align:center;display:table-cell;vertical-align:middle;}
+.house dd a{font-size:14px;color:#7f2121;}
+.house p{font-size:12px;color:#b6b0c0;line-height:24px}
+.house span{font-size:14px;color:red;line-height:28px;}
+.housepic-s{margin: 0 0 13px 13px;width:214px;height:103px;float:left;text-align:center;background:#fff;padding-top:40px;padding-right:20px;}
+.housepic-s li dt{float:right;}
+.housepic-s li .camerapic img{width:80px;height:80px;}
+.housepic-s li p{font-size:18px;color:#333333;line-height:24px}
+.housepic-s li span{font-size:14px;color:#757575;line-height:28px;}
+.housepic-s li .cameraorange{font-size:14px;color:#ff7e00;line-height:28px;}
+.housepic-s li .morepic img{width:50px;height:50px;margin-right:10px;}
+
+/*==============================================下面是same====================================================*/
+.same{width:1228px;height:697px;margin:0 auto;}
+.same-b{width:1400px;height:618px;}
+.samepic{width:235px;height:300px;float:left;text-align:center;background:#fff;margin: 0 0 7px 13px;}
+.same:after{content:"";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+.same .samepic dt{width:235px;height:205px;text-align:center;display:table-cell;vertical-align:middle;}
+.same dd a{font-size:14px;color:#7f2121;}
+.same p{font-size:12px;color:#b6b0c0;line-height:24px}
+.same span{font-size:14px;color:red;line-height:28px;}
+.samepic-s{margin: 0 0 13px 13px;width:214px;height:103px;float:left;text-align:center;background:#fff;padding-top:40px;padding-right:20px;}
+.samepic-s li dt{float:right;}
+.samepic-s li .camerapic img{width:80px;height:80px;}
+.samepic-s li p{font-size:18px;color:#333333;line-height:24px}
+.samepic-s li span{font-size:14px;color:#757575;line-height:28px;}
+.samepic-s li .cameraorange{font-size:14px;color:#ff7e00;line-height:28px;}
+.samepic-s li .morepic img{width:50px;height:50px;margin-right:10px;}
+.wrap5 li{-webkit-transition: all .2s linear; /*渐变效果*/
+            transition: all .2s linear;}
+.wrap5 .housepic:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+.wrap5 .samepic:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+.samepic-s:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+			
+/*==============================================下面是热评产品hot====================================================*/
+.wrap6{width:auto;background:#f5f5f5;margin-top:15px;}
+.hot{width:1228px;height:439px;margin:0 auto;}
+.hot h2{line-height:75px;}
+.hotpro{width:295px;height:417px;float:left;margin-left:12px;text-align:center;background:#fff;}
+.hot li{margin:20px 20px 0 20px;}
+.hot li a{font-size:13px;color:#333333;line-height:24px;}
+.hot p{font-size:12px;color:#b7b7cb;line-height:24px}
+.hot span{font-size:14px;color:#333333;line-height:28px;}
+.hot i{font-style:normal;color:#ff6700;font-size:14px;}
+{width:50px;height:50px;margin-right:10px;}/*==============================================奥术大师大所多多多多多多多多多面是content====================================================*/
+.hotpro{-webkit-transition: all .2s linear; /*渐变效果*/
+            transition: all .2s linear;}
+.hotpro:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+.hotpro span:hover{color:#ff6700;}
+				
+
+/*==============================================下面是content====================================================*/
+.content{width:1228px;height:439px;margin:0 auto;}
+.content h2{line-height:75px;margin-left:10px;}
+.content li{width:283px;height:378px;background:#fff;float:left;margin-left:24px;text-align:center;}
+.content li i{display:block;height:100px;font-size:18px;}
+.content li p{color:#333333;font-size:20px;line-height:34px}
+.content li span{color:#b0b0b0;font-size:12px;line-height:21px}
+.content li b{color:#333333;font-size:14px;line-height:26px}
+
+.contentpic{width:200px;height:142px;overflow:hidden;margin-left:41px;}
+.contentpic .book{float:left;list-style:none;text-align:center;}
+
+.point dt{float:left;margin-left:4px;}
+.point{position:absolute;left:111px; bottom:15px;}
+.point dt a{display:block;width:5px;height:5px;/*border-radius:50%;*/background:#666;margin-left:12px;}
+.point dt a:hover{background:orange;/*width:5px;height:5px;border:2px orange solid;*/}
+
+.content2{position:relative;border-top:#83c44e 1px solid;}
+.content3{position:relative;border-top:#2196f3 1px solid;}
+.content4{position:relative;border-top:#e53935 1px solid;}
+.content1{position:relative;border-top:#00c0a5 1px solid;}
+
+.content2 i{color:#83c44e;line-height:100px;}
+.content3 i{color:#2196f3;line-height:100px;}
+.content4 i{color:#e53935;line-height:100px;}
+.content1 i{color:#00c0a5;line-height:100px;}
+.content li{-webkit-transition: all .2s linear; /*渐变效果*/
+            transition: all .2s linear;}
+.content li:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+/*==============================================下面是video====================================================*/
+.videos{width:1228px;height:400px;margin:0 auto;}
+.videos h2{line-height:75px;margin-left:15px;}
+.video{width:296px;height:279px;float:left;background:#fff;margin-left:11px;text-align:center;background:#fff;}
+.video p{margin-top:25px;font-size:14px;color:#333333;line-height:24px}
+.video span{font-size:14px;color:#ccc;line-height:28px;}
+.video{-webkit-transition: all .2s linear; /*渐变效果*/
+            transition: all .2s linear;}
+
+.video:hover{z-index: 2; /*设置在顶层显示*/
+            -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);    /*添加阴影*/
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            -webkit-transform: translate3d(0, -2px, 0);     /*向上浮动*/
+            transform: translate3d(0, -2px, 0);}
+/*==============================================下面是link====================================================*/
+.wrap7{width:auto;background:#fff;margin-top:15px;}
+.link{width:1228px;height:274px;margin:0 auto;}
+.link-t{width:1228px;height:80px;margin:0 auto;background:url(../images/linkbg.png) no-repeat;background-position:-18px 6px;border-bottom:#616161 1px solid;}
+.link-t li{float:left;width:242px;height:26px;text-align:center;line-height:80px;}
+.link-t li a{font-size:16px;color:#616161;}
+.link-t li a:hover{color:#ff6b00;}
+.link dl{float:left;margin-right:100px;}
+.link dt{font-size:14px;color:#424242;with:161px;line-height:76px;}
+.link dd{font-size:12px;color:#757575;line-height:29px;}
+.link .contactus{margin:40px 0 0 5px;width:220px;height:113px;border-left:#e0e0e0 1px solid;text-align:center;}
+.link .contactus dt{line-height:30px;font-size:20px;color:#ff6700;font-weight:bold;}
+.link .contactus dd{line-height:24px;font-size:18px;color:#616161;}
+.link .contactus .kefu{margin:15px 0 0 45px;display:block;width:120px;height:29px;border:1px #ff6700 solid;font-size:12px;line-height:29px;color:#ff6700;}
+.link dd:hover{color:#ff6700;}
+.link .contactus .kefu:hover{background:#ff6700;color:#fff;}
+
+/*==============================================下面是footer====================================================*/
+.wrap8{width:auto;background:#fafafa;}
+.footer{width:1228px;height:166px;margin:0 auto;}
+.footer img{float:left;margin:30px 0 0 10px;}
+.footer table{float:left;margin:30px 0 0 5px;}
+.footer td{font-size:12px;color:#757575;}
+.footer p{display:block;width:650px;;min-height:18px;font-size:11px;color:#b0b0c0;float:left;}
+
+.footer ul{float:right;margin-top:-40px;}
+.footer ul li{float:left;}
+.footer ul li img{width:86px;height:28px;float:left;}
+.footer td a:hover{color:#ff6700;}
